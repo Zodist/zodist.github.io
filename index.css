@@ -34,3 +34,38 @@ main {
 a {
     color: #009579;
 }
+
+.hidden {
+    display: none;
+}
+
+img {
+    position: relative;
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 100vh;
+} */
+
+button {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
