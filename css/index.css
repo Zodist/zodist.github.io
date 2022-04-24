@@ -12,6 +12,8 @@ nav {
     flex-direction: column;
     background: #222222;
     height: 100vh;
+    position: sticky;
+    top: 0;
 }
 
 nav a {

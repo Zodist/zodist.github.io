@@ -63,7 +63,7 @@ export function loadAbout() {
         const height =
             window.innerHeight +
             scenePerspective * cameraSpeed +
-            itemZ * cameraSpeed * numberOfItems + 2000;
+            itemZ * cameraSpeed * numberOfItems; //+ 2000;
 
         // Update --viewportHeight value
         document.documentElement.style.setProperty("--viewportHeight", height);
