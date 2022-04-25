@@ -4,7 +4,7 @@
   --scenePerspectiveOriginX: 50;
   --scenePerspectiveOriginY: 0;
   --itemZ: 1;
-  --cameraSpeed: 150;
+  --cameraSpeed: 80;
   --cameraZ: 0;
   --viewportHeight: 0;
 }
@@ -53,15 +53,8 @@
   }
 }
 
-.viewport .scene3D-container .scene3D > div:nth-child(2n) {
-  left: 0;
-}
-
-.viewport .scene3D-container .scene3D > div:nth-child(2n + 1) {
-  right: 0;
-}
-
 .viewport .scene3D-container .scene3D > div:nth-child(0) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 0 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 0 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 0 - var(--cameraZ)) * 0.03px));
@@ -69,6 +62,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(1) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 1 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 1 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 1 - var(--cameraZ)) * 0.03px));
@@ -76,6 +70,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(2) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 2 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 2 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 2 - var(--cameraZ)) * 0.03px));
@@ -83,6 +78,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(3) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 3 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 3 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 3 - var(--cameraZ)) * 0.03px));
@@ -90,6 +86,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(4) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 4 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 4 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 4 - var(--cameraZ)) * 0.03px));
@@ -97,6 +94,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(5) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 5 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 5 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 5 - var(--cameraZ)) * 0.03px));
@@ -104,6 +102,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(6) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 6 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 6 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 6 - var(--cameraZ)) * 0.03px));
@@ -111,6 +110,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(7) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 7 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 7 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 7 - var(--cameraZ)) * 0.03px));
@@ -118,6 +118,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(8) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 8 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 8 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 8 - var(--cameraZ)) * 0.03px));
@@ -125,6 +126,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(9) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 9 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 9 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 9 - var(--cameraZ)) * 0.03px));
@@ -132,6 +134,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(10) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 10 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 10 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 10 - var(--cameraZ)) * 0.03px));
@@ -139,6 +142,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(11) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 11 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 11 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 11 - var(--cameraZ)) * 0.03px));
@@ -146,6 +150,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(12) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 12 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 12 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 12 - var(--cameraZ)) * 0.03px));
@@ -153,6 +158,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(13) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 13 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 13 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 13 - var(--cameraZ)) * 0.03px));
@@ -160,6 +166,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(14) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 14 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 14 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 14 - var(--cameraZ)) * 0.03px));
@@ -167,6 +174,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(15) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 15 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 15 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 15 - var(--cameraZ)) * 0.03px));
@@ -174,6 +182,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(16) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 16 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 16 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 16 - var(--cameraZ)) * 0.03px));
@@ -181,6 +190,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(17) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 17 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 17 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 17 - var(--cameraZ)) * 0.03px));
@@ -188,6 +198,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(18) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 18 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 18 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 18 - var(--cameraZ)) * 0.03px));
@@ -195,6 +206,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(19) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 19 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 19 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 19 - var(--cameraZ)) * 0.03px));
@@ -202,6 +214,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(20) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 20 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 20 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 20 - var(--cameraZ)) * 0.03px));
@@ -209,6 +222,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(21) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 21 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 21 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 21 - var(--cameraZ)) * 0.03px));
@@ -216,6 +230,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(22) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 22 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 22 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 22 - var(--cameraZ)) * 0.03px));
@@ -223,6 +238,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(23) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 23 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 23 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 23 - var(--cameraZ)) * 0.03px));
@@ -230,6 +246,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(24) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 24 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 24 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 24 - var(--cameraZ)) * 0.03px));
@@ -237,6 +254,7 @@
 }
 
 .viewport .scene3D-container .scene3D > div:nth-child(25) {
+  left: 30%;
   -webkit-transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 25 * -1px));
           transform: translate3D(0%, 0%, calc(var(--itemZ) * var(--cameraSpeed) * 25 * -1px));
   -webkit-filter: blur(calc((var(--itemZ) * var(--cameraSpeed) * 25 - var(--cameraZ)) * 0.03px));

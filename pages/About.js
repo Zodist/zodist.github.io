@@ -8,6 +8,7 @@ export default class {
         <div class="viewport">
             <div class="scene3D-container">
                 <div class="scene3D">
+                    <div class="yearBar"></div>
                 </div>
             </div>
         </div>

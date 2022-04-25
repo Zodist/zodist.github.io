@@ -3,7 +3,7 @@
     --scenePerspectiveOriginX: 50;
     --scenePerspectiveOriginY: 0;
     --itemZ: 1;
-    --cameraSpeed: 150; // Where 1 is the fastest
+    --cameraSpeed: 80; // Where 1 is the fastest
     --cameraZ: 0;
     --viewportHeight: 0;
 }
@@ -43,16 +43,17 @@
                     width: 45%;
                 }
 
-                &:nth-child(2n) {
-                    left: 0;
-                }
+                // &:nth-child(2n) {
+                //     left: 0;
+                // }
 
-                &:nth-child(2n + 1) {
-                    right: 0;
-                }
+                // &:nth-child(2n + 1) {
+                //     right: 0;
+                // }
 
                 @for $i from 0 through 25 {
                     &:nth-child(#{$i}) {
+                        left: 30%;
                         transform: translate3D(
                             0%,
                             0%,
