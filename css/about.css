@@ -275,7 +275,7 @@
   margin: 0;
 }
 
-h1 {
+.viewport > h1 {
   font-family: "Playfair Display SC", serif;
   font-size: 1.5rem;
   color: white;
@@ -286,7 +286,7 @@ h1 {
   text-align: center;
 }
 
-h1 .logo {
+.viewport > h1 .logo {
   display: block;
   margin: 0 auto;
   max-width: 150px;
