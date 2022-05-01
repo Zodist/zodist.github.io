@@ -1,7 +1,7 @@
 import { loadAbout } from "../js/about.js";
 export default class {
     constructor() {
-        document.title = "Momentum";
+        document.title = "About";
     }
     async getHtml() {
         return `
