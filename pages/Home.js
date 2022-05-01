@@ -4,15 +4,17 @@ export default class {
     }
     async getHtml() {
         return `
-            <h1>This is zodist</h1>
-            <h2>I'm hosted with GitHub Pages.</h2>
-            <button id="btnTest">Test</button>
+        <div class="post">
+            <div class="postPage">Welcome</div>
+            <div class="postPage">To</div>
+            <div class="postPage">Zodist's Blog</div>
+        </div>
         `;
     }
     async loadFunc() {
-        const btnTest = document.querySelector("#btnTest");
-        btnTest.addEventListener("click", ()  => {
-            alert("Test");
-        })
+        // const btnTest = document.querySelector("#btnTest");
+        // btnTest.addEventListener("click", ()  => {
+        //     alert("Test");
+        // })
     }
 }
